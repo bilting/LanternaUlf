@@ -9,7 +9,7 @@ public class LanternaLab {
 
     public static void main(String[] args) throws IOException {
         Screen screen = new Screen();
-        screen.putChar(4, 4, 'A');
+        screen.putChar(4, 4, 'X');
         screen.putChar(6, 6, 'B', Screen.RED, Screen.GREEN);
 
         System.out.println(screen.getChar(4,4));
